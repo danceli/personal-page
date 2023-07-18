@@ -6,7 +6,8 @@ const Header = () => {
    <HeaderWrap>
       <TopNav />
       <div className="title-container">
-        <div className='page-title'>HuaHua`s Learn Road</div>
+        {/* <div className='page-title'>HuaHua`s Learn Road</div> */}
+        <div className='page-title'>The road to code learning</div>
         <div className="date">
           {new Date().toDateString()}
         </div>

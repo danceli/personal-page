@@ -15,6 +15,7 @@ export const HeaderWrap = styled.div`
       font-size: 12px;
       line-height: 1.5;
       font-weight: 700;
+      padding-bottom: 2px;
     }
   }
 `

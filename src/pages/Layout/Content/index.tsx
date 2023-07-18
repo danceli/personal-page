@@ -1,8 +1,11 @@
 import { Outlet } from "react-router-dom";
+import { ContentWrap } from "../style";
 
 const Content = () => {
   return (
-    <Outlet />
+    <div className={ContentWrap}> 
+      <Outlet />
+    </div>
   )
 }
 

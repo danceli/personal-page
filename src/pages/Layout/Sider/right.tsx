@@ -1,7 +1,8 @@
+import { SiderRightWrap } from "../style";
 
 const SiderRight = () => {
   return (
-    <div>
+    <div className={SiderRightWrap}>
       SiderRight
     </div>
   )

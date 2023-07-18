@@ -18,7 +18,7 @@ const routeList: RouteObject[] = [
   ...home,
   ...about,
   ...chat,
-  books,
+  ...books,
   ...life,
   ...dataStructure,
   ...algorithms,

@@ -8,7 +8,7 @@ const lifeRoutes: RouteObject[] = [
     element: <Layout />,
     children: [
       {
-        path: '/chat',
+        path: '/life',
         element: <Life />
       }
     ]
