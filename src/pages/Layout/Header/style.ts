@@ -3,12 +3,32 @@ import styled from '@emotion/styled';
 
 export const HeaderWrap = styled.div`
   padding: 1.125em 2.778%;
+
+  .title-container {
+    margin-top: 0.35em;
+    .page-title {
+      text-align: center;
+      font-size: 2.375em;
+      line-height: 1.342;
+    }
+    .date {
+      font-size: 12px;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+  }
 `
 
 
 export const TopNavWrap = styled.div`
   display: flex;
+  justify-content: space-between;
   align-items: center;
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
 `
 
 export const SearchWrap = css`
@@ -43,6 +63,32 @@ export const MenuListWrap = css`
     transition: all ease .3s;
     &:hover {
       color: #666666;
+    }
+  }
+`
+
+
+export const ShareInfoWrap = css`
+  display: inline-flex;
+  align-items: center;
+  .share-item {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+    &:hover {
+      opacity: .5;
+    }
+    .share-icon {
+      font-size: 12px;
+      width: 14px;
+      height: 14px;
     }
   }
 `
