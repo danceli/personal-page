@@ -10,7 +10,10 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, './src'),
       '@components': resolve(__dirname, './src/components'),
-      '@utils': resolve(__dirname, './src/utils')
+      '@utils': resolve(__dirname, './src/utils'),
+      '@hooks': resolve(__dirname, './src/hooks'),
+      '@subjects': resolve(__dirname, './src/subjects'),
+      "@router": resolve(__dirname, './src/router')
     },
   },
 });
