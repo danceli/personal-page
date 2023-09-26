@@ -1,6 +1,8 @@
-import Router from '@/router';
+import Router from '@router';
+import useGlobal from '@hooks/useGlobal';
 
 function App() {
+  useGlobal();
   return (
     <Router />
   )
